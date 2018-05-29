@@ -1,0 +1,23 @@
+[
+{
+"id":1,
+ "nazov": "Zemiaky",
+ "typ": "Zelenina",
+ "cena": 5,
+ "obrazok": "Zelenina1"
+},
+{
+"id":2,
+ "nazov": "Kukurica",
+ "typ": "Zelenina",
+ "cena": 7,
+ "obrazok": "Zelenina2"
+},
+{
+"id":3,
+ "nazov": "Paradajky",
+ "typ": "Zelenina",
+ "cena": 3,
+ "obrazok": "Zelenina3"
+}
+]
