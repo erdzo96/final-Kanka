@@ -4,7 +4,7 @@ import Logo from '../obrazky/Logo.png'
 
 const Header =_=> (
   <header>
-  <img className="logo" src={ Logo }/>
+  <img className="logo" alt="The Market logo" src={ Logo }/>
   <div className="logo_text">The Market</div>
   <div className="header">
   

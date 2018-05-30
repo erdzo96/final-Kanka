@@ -1,6 +1,6 @@
 import React from 'react'
 
-var lol;
+var a;
 
 class Formular extends React.Component {	
 	
@@ -28,7 +28,8 @@ class Formular extends React.Component {
         priezvisko: this.state.priezvisko,
 		hodnotenie: this.state.hodnotenie
        }
-	   if(this.state.meno == "" || this.state.priezvisko == "" || this.state.hodnotenie == ""){
+	   
+	   if(this.state.meno === "" || this.state.priezvisko === "" || this.state.hodnotenie === ""){
 		   alert("Vyplnte prosim vsetky polia!");
 	   }else if(this.state.isChecked){
 		   alert("Musite suhlasit s podmienkami!");
